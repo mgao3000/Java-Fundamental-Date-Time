@@ -1,8 +1,8 @@
-###Using Java Date and Time libraries, create a new class called CalendarHelper.
+### Using Java Date and Time libraries, create a new class called CalendarHelper.
 
-###The class skeleton is under package "com.devmountain.parse".
+### The class skeleton is under package "com.devmountain.parse".
 
-###This class should do the following:
+### This class should do the following:
 
 1. Ask the user for their birthday and add it to this list 
 2. Print the current date 

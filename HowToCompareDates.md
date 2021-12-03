@@ -1,4 +1,4 @@
-###Compare two date and time using _java.time.*_ API
+### Compare two date and time using _java.time.*_ API
 For the new Java 8 _java.time.*_ classes, all contains similar
 <span style="color:red">compareTo</span>, 
 <span style="color:red">isBefore()</span>,
@@ -101,12 +101,12 @@ to compare two dates, and it works the same way.
           System.out.println("No");
       }
 ```
-###Compare two date and time using legacy java.util.Date, we can use 
+### Compare two date and time using legacy java.util.Date, we can use 
 * <span style="color:red">compareTo</span>
 * <span style="color:red">before()</span> 
 * <span style="color:red">after()</span>after() and 
 * <span style="color:red">equals()</span> 
-###to compare two dates.
+### to compare two dates.
 1. Below example uses Date.compareTo to compare two java.util.Date in Java.
 * Return value of 0 if the argument date is equal to the Date. 
 * Return value is greater than 0 or positive if the Date is after the argument date. 
@@ -155,7 +155,7 @@ to compare two dates, and it works the same way.
       }
 ```
 3. Check if a date is within a certain range
-####Version 1: 
+#### Version 1: 
 ```java
     public boolean isWithinRange(Date startDate,
         Date endDate,
@@ -168,7 +168,7 @@ to compare two dates, and it works the same way.
         return result;
     }
 ```
-####Version 2:
+#### Version 2:
 ```java
     public boolean isWithinRange(Date startDate,
         Date endDate,
@@ -184,13 +184,13 @@ to compare two dates, and it works the same way.
         return result;
     }
 ```
-###Compare two legacy java.util.Calendar
-####The java.util.Calendar works the same way as java.util.Date. And The Calendar contains the similar 
+### Compare two legacy java.util.Calendar
+#### The java.util.Calendar works the same way as java.util.Date. And The Calendar contains the similar 
 * <span style="color:red">compareTo</span>
 * <span style="color:red">before() </span>
 * <span style="color:red">after()</span> and 
 * <span style="color:red">equals()</span> 
-####to compare two calender.
+#### to compare two calender.
 ```java
       SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
       Date date1 = sdf.parse("2020-02-01");

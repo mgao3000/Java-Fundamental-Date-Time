@@ -1,6 +1,6 @@
-###You need to implement two classes named as WorldClock and WorldClockDriver
-###The class skeleton is under package "com.devmountain.currentdate". 
-###For class WorldClock, please implement the following methods: 
+### You need to implement two classes named as WorldClock and WorldClockDriver
+### The class skeleton is under package "com.devmountain.currentdate". 
+### For class WorldClock, please implement the following methods: 
 ```java
 public LocalDate getNowForDate();
 public LocalDateTime getNowForDateAndTime();
@@ -13,13 +13,13 @@ public ZonedDateTime getNowDateTimeForLondon();
 public ZonedDateTime getNowDateTimeForMoscow();
 public ZonedDateTime getNowDateTimeForTokyo(); 
 ```
-###In WorldClockDriver, you need instantiate WorldClock and then print out the results of each API provided by the class WorldClock. 
+### In WorldClockDriver, you need instantiate WorldClock and then print out the results of each API provided by the class WorldClock. 
 <span style="color:red">Note: When print out the results of WorldClock APIs, please use DateTimeFormatter to format the Date value to make them more user-friendly</span>
 
 The two empty classes WorldClock and WorldClockDriver are already created under the package com.devmountain.currentdate. What you need to do is implement them using java Date, Time and DateTimeFormatter. 
 
 
-###Sample output: 
+### Sample output: 
 ```java
 nowLocalDate=2021/12/01
 nowLocalDateTime=2021/12/01 18:52:35

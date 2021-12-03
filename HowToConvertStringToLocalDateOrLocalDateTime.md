@@ -1,4 +1,4 @@
-###Convert String to LocalDate
+### Convert String to LocalDate
 The following is an example of converting a String to the java.time.LocalDate
 ```java
   DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
@@ -97,7 +97,7 @@ Exception in thread "main" java.time.format.DateTimeParseException: Text '16-Aug
         System.out.println(formatter.format(localDate)); //Print out as "Tue, Aug 16 2016"
 
 ```
-###Convert String to LocalDateTime
+### Convert String to LocalDateTime
 5. Parsing String "Tuesday, Aug 16, 2016 12:10:56 PM"
 ```java
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE, MMM d, yyyy hh:mm:ss a", Locale.US);
@@ -144,7 +144,7 @@ Output:
 ```java
 Unable to parse the date!
 ```
-###Common Date and Time Patterns
+### Common Date and Time Patterns
 The followings are some common date and time patterns:
 * y – Year (1996; 96)
 * M – Month in year (July; Jul; 07)
@@ -155,8 +155,8 @@ The followings are some common date and time patterns:
 * h – Hour in AM/PM (1-12)
 * m – Minute in hour (0-60)
 * s – Second in minute (0-60)
-###For a full list of symbols that we can use to specify a pattern for parsing click [here](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html#patterns).
-8. 
+### For a full list of symbols that we can use to specify a pattern for parsing click [here](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html#patterns).
+ 
 
 
 
